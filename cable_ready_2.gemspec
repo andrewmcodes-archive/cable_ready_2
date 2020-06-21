@@ -1,17 +1,17 @@
-require_relative 'lib/cable_ready_2/version'
+require_relative "lib/cable_ready_2/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "cable_ready_2"
-  spec.version       = CableReady2::VERSION
-  spec.authors       = ["Andrew Mason", "Nathan Hopkins"]
-  spec.email         = ["andrewmcodes@protonmail.com", "natehop@gmail.com"]
+  spec.name = "cable_ready_2"
+  spec.version = CableReady2::VERSION
+  spec.authors = ["Andrew Mason", "Nathan Hopkins"]
+  spec.email = ["andrewmcodes@protonmail.com", "natehop@gmail.com"]
   spec.summary = "[Proof of Concept]"
   spec.description = <<~DESC
     CableReady22 is a soft fork of CableReady2 to create a
     proof of concept for a better development workflow.
   DESC
   spec.homepage = "https://github.com/andrewmcodes/cable_ready_2"
-  spec.license       = "MIT"
+  spec.license = "MIT"
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
   spec.metadata = {
     "bug_tracker_uri" => "#{spec.homepage}/issues",

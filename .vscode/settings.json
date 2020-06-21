@@ -1,0 +1,33 @@
+{
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "ms-vscode.vscode-typescript-tslint-plugin"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "ruby.useLanguageServer": true,
+  "ruby.lintDebounceTime": 1500,
+  "ruby.useBundler": true,
+  "ruby.lint": {
+    "standard": {
+      "useBundler": true
+    }
+  },
+  "ruby.format": "standard",
+  "npm.packageManager": "yarn",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.quoteStyle": "double",
+  "typescript.preferences.quoteStyle": "double",
+  // "typescript.referencesCodeLens.enabled": true,
+  "typescript.suggest.completeFunctionCalls": true
+}
