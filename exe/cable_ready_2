@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+
+require "cable_ready_2"
